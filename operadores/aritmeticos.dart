@@ -9,9 +9,12 @@ void main(List<String> args) {
   int multiplicacion = a * b; // 15
 //Division(/)
   double division = a / b; // 1.6666666666666667
+  //Resto(%)
+  int resto = a % b; // 2
 
-  print('suma: $suma');
-  print('resta: $resta');
-  print('multiplicacion: $multiplicacion');
-  print('division: $division');
+  print('Suma: $suma');
+  print('Resta: $resta');
+  print('Multiplicacion: $multiplicacion');
+  print('Division: $division');
+  print('Resto: $resto');
 }
