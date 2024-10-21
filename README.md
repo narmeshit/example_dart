@@ -4,10 +4,10 @@ Estos ejemplos son necesarios conocerlos de pie a cabeza, por que es el día a d
 
 ## Compilar tu código Dart
 
-Antes de compilar el código de los casos prácticos recuerdar agregar en la última linea, para que el programa no se cierre inmediatamente, con esto espera a que el usuario presione Enter para finalizar el programa.
+Antes de compilar el código de los casos prácticos recuerde agregar el siguiente código en la última linea, con esto espera a que se presione la tecla Enter para finalizar el programa.
 
 ```dart
-  print('\nPresiona Enter para salir.');
+  print('\nPresiona Enter para salir...');
   stdin.readLineSync();
 ```
 
